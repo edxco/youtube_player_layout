@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;600;400&display=swap');
 
 body {
     margin: 0px;
@@ -8,6 +8,19 @@ body {
 h5{
     margin-top: 0;
     margin-bottom: 3px;
+}
+
+h5 a{
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+.m-2{
+    padding-top: 15px;
 }
 
 .container {
@@ -80,6 +93,8 @@ h5{
 
 }
 
+
+
 .main {
     display: flex;
     width: 100%;
@@ -95,6 +110,8 @@ h5{
 .right-div {
     width: 400px;
 }
+/*----------End of main DIV's---------*/
+
 
 .media-first {
     display: flex;
@@ -113,16 +130,18 @@ h5{
     margin: 12 0 0 10px;
     width: 100%;
     padding: 5 0;
+    
 }
 
 .media-body {
     align-items: flex-start;
     margin-left: 10px;
+    text-align: left;
 }
 
 
 .litte-text {
-    font-size: 0.8em;
+    font-size: 13px;
     font-weight: 200;
     color: grey;
 }
@@ -234,4 +253,51 @@ a.fill-div {
     height: 100%;
     width: 100%;
     text-decoration: none;
+}
+
+
+/*Comments elements*/
+.text-comment{
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6em;
+}
+.circle { 
+    width: 48px;
+    height: 48px; 
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 70px;
+    position: relative;
+
+ }
+
+ .child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+ }
+ .blue{
+    background-color: #265CFF;
+}
+
+.red{
+    background-color: #FF4D4D;
+}
+
+.grey{
+    background-color: lightslategrey;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.icons-comment{
+    width: 23px;
+    padding-right: 0.6em;
 }
