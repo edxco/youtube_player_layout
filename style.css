@@ -139,6 +139,10 @@ a{
     text-align: left;
 }
 
+.icon-control{
+    display: flex;
+    align-items: center;
+}
 
 .litte-text {
     font-size: 13px;
