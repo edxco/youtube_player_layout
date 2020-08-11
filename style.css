@@ -61,12 +61,17 @@ h5{
     max-width: 80%;
     width: 100%;
     height: 32px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right-width: 0px;
 }
 
 #search-button {
     height: 32px;
     width: 60px;
     border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     border-width: 1px;
     border-color: gray;
 }
